@@ -1,6 +1,6 @@
 class lab_II
 {
-    public static void main(String args[])
+    public static void main(String []args)
     {
         //==========================TYPE CASTING===========================//
 
@@ -11,38 +11,44 @@ class lab_II
         System.out.println(C);
 
         System.out.println("\nCHAR TO INT");
-        char chr= 'a' ;
-        int Cn = (int)chr;
+        char chr= 'a';
+        int Cn;
+        Cn = chr;
         System.out.println(Cn);
 
         System.out.println("\nINT TO FLOAT");
-        int A = 20;
+        int A;
+        A = 20;
         float F = A;
         System.out.println(F);
 
         System.out.println("\nINT TO LONG");
-        int Il = 90;
+        int Il;
+        Il = 90;
         long Cv = Il;
         System.out.println(Cv);
 
         System.out.println("\nINT TO DOUBLE");
-        int Id = 40;
+        int Id;
+        Id = 40;
         long Dx = Id;
         System.out.println(Dx);
 
         System.out.println("\nFLOAT TO DOUBLE");
-        float B = 20.30f;
+        float B;
+        B = 20.30f;
         double D = B;
         System.out.println(D);
 
         System.out.println("\nLONG TO DOUBLE");
-        long Ln = 208470l;
+        long Ln;
+        Ln = 208470L;
         double Db = Ln;
         System.out.println(Db);
 
         System.out.println("\nLONG TO FLOAT");
-        long L = 67570l;
-        float Dn = L;
+        long L = 67570L;
+        float Dn =(float) L;
         System.out.println(Dn);
 
         System.out.println("\nLONG TO INT");
@@ -64,12 +70,10 @@ class lab_II
         double Dti = 8.54689579;
         int Nu = (int) Dti;
         System.out.println(Nu);
-		
-		
-		/*
+
 		String name = "Rahul";
 		System.out.println(name+70+70);
-		*/
+
 
     }
 }
