@@ -72,8 +72,8 @@ class lab_II
         System.out.println(Nu);
 
 		String name = "Rahul";
-		System.out.println(name+70+70);
-
+		System.out.println(name+70+70);//Rahul7070
+        System.out.println(70+70+name);//140Rahul
 
     }
 }
